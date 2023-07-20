@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+:root {
+  --color-bg-1: rgb(239, 239, 239);
+  --color-btn: #f7d9c4;
+  --color-desc: #bbbbbb;
+  --color-desc-main: #777777;
+  --color-icon: #ff8484;
+  --color-bg-2: #1b2026;
+  --color-bg-3: #31363b;
+  --color-bg-4: #dce8eb;
+  --color-bg-5: #14191e;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.animation:hover {
+  transition: all 0.3s !important;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+@media (max-width: 1199.98px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (max-width: 991.98px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767.98px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 575.98px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+
+body {
+  font-size: 17.6px;
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.btn-color-pink {
+  display: inline-block;
+  font-weight: 600;
+  color: #000;
+  padding: 16px 41.6px;
+  background-color: var(--color-btn);
+  border-radius: 4px;
+}
+.btn-color-none {
+  display: inline-block;
+  font-weight: 600;
+  color: #fff;
+  padding: 16px 41.6px;
+  border-radius: 4px;
+}
+.btn-pink:hover {
+  background-color: #fff;
+}
+.btn-none:hover {
+  color: #000;
+  background-color: var(--color-btn) !important;
+}
+.btn-border {
+  border: 1px solid var(--color-desc-main);
+}
+.border-radius-10px {
+  border-radius: 10px;
+}
+.text-head {
+  font-weight: 600;
+  color: var(--color-desc-main);
+  font-size: 17.6px;
+  margin: 0;
+}
+.max-width-50 {
+  max-width: 50%;
+}
